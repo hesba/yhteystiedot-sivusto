@@ -1,0 +1,50 @@
+#Nav_menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navibar {
+  background-color: rgb(32,32,32);
+}
+
+.Nav_link:link {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  text-decoration: none;
+}
+.Nav_link:visited {
+  color: #fff;
+}
+.Nav_link:hover {
+  color: rgb(186, 183, 183);
+}
+.Nav_link:active {
+  color: teal;
+}
+
+.activeRoute {
+  background-color: yellow;
+  border-bottom: 0.4rem solid teal;
+  cursor: not-allowed;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(24,24,24);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
